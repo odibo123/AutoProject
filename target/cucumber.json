@@ -1,0 +1,846 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 14,
+        "name": "To test that user can login successfully if valid credentials are entered",
+        "description": "",
+        "id": "login-feature-test;to-test-that-user-can-login-successfully-if-valid-credentials-are-entered;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14039378100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am  on the Home Page",
+            "match": {
+              "location": "Common.i_am_on_the_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 159647000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I see a logo banner",
+            "match": {
+              "location": "Common.i_see_a_logo_banner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2284869300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click sign in",
+            "match": {
+              "location": "Common.i_click_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3038783999,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I login in with correct \"davin.riches@gmail.com\" and \"Today01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "davin.riches@gmail.com",
+                  "offset": 25
+                },
+                {
+                  "val": "Today01",
+                  "offset": 54
+                }
+              ],
+              "location": "LoginStep.i_login_in_with_correct_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103283900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see \"davin riches\" on the dashboard",
+            "match": {
+              "arguments": [
+                {
+                  "val": "davin riches",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginStep.i_should_see_on_the_dashboard(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "To test that user can login successfully if valid credentials are entered",
+        "description": "",
+        "id": "login-feature-test;to-test-that-user-can-login-successfully-if-valid-credentials-are-entered;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9634797201,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am  on the Home Page",
+            "match": {
+              "location": "Common.i_am_on_the_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 74515701,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I see a logo banner",
+            "match": {
+              "location": "Common.i_see_a_logo_banner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1823102600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click sign in",
+            "match": {
+              "location": "Common.i_click_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2557988800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I login in with correct \"escosolo7@gmail.com\" and \"Ikeama78\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "escosolo7@gmail.com",
+                  "offset": 25
+                },
+                {
+                  "val": "Ikeama78",
+                  "offset": 51
+                }
+              ],
+              "location": "LoginStep.i_login_in_with_correct_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126426300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see \"Emeka Onourha\" on the dashboard",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Emeka Onourha",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginStep.i_should_see_on_the_dashboard(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 27,
+        "name": "To test that user is unable to login if invalid credentials are entered",
+        "description": "",
+        "id": "login-feature-test;to-test-that-user-is-unable-to-login-if-invalid-credentials-are-entered;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9562305899,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am  on the Home Page",
+            "match": {
+              "location": "Common.i_am_on_the_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 69794200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I see a logo banner",
+            "match": {
+              "location": "Common.i_see_a_logo_banner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1968357999,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 20,
+                "value": "# And I log into create account Page"
+              }
+            ],
+            "line": 21,
+            "name": "I click sign in",
+            "match": {
+              "location": "Common.i_click_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1745952500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I try to log in with incorrect  \"davin.riches@gmail.com\" or incorrect \"Today2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "davin.riches@gmail.com",
+                  "offset": 33
+                },
+                {
+                  "val": "Today2",
+                  "offset": 71
+                }
+              ],
+              "location": "LoginStep.i_try_to_log_in_with_incorrect_or_incorrect(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 194972599,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I should see error \"Authentication failed.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Authentication failed.",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginStep.i_should_see_error(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 28,
+        "name": "To test that user is unable to login if invalid credentials are entered",
+        "description": "",
+        "id": "login-feature-test;to-test-that-user-is-unable-to-login-if-invalid-credentials-are-entered;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8851464200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am  on the Home Page",
+            "match": {
+              "location": "Common.i_am_on_the_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 42526900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I see a logo banner",
+            "match": {
+              "location": "Common.i_see_a_logo_banner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1663119100,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 20,
+                "value": "# And I log into create account Page"
+              }
+            ],
+            "line": 21,
+            "name": "I click sign in",
+            "match": {
+              "location": "Common.i_click_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1804175200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I try to log in with incorrect  \"esco@yahmail.com\" or incorrect \"Ikeama78\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "esco@yahmail.com",
+                  "offset": 33
+                },
+                {
+                  "val": "Ikeama78",
+                  "offset": 65
+                }
+              ],
+              "location": "LoginStep.i_try_to_log_in_with_incorrect_or_incorrect(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 247360199,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I should see error \"Authentication failed.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Authentication failed.",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginStep.i_should_see_error(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "To test that user is unable to login if invalid credentials are entered",
+        "description": "",
+        "id": "login-feature-test;to-test-that-user-is-unable-to-login-if-invalid-credentials-are-entered;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8837627700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am  on the Home Page",
+            "match": {
+              "location": "Common.i_am_on_the_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 51193700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I see a logo banner",
+            "match": {
+              "location": "Common.i_see_a_logo_banner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1845938500,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 20,
+                "value": "# And I log into create account Page"
+              }
+            ],
+            "line": 21,
+            "name": "I click sign in",
+            "match": {
+              "location": "Common.i_click_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1746215800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I try to log in with incorrect  \"christodibo@yaho\" or incorrect \"To7@\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "christodibo@yaho",
+                  "offset": 33
+                },
+                {
+                  "val": "To7@",
+                  "offset": 65
+                }
+              ],
+              "location": "LoginStep.i_try_to_log_in_with_incorrect_or_incorrect(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 144763599,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I should see error \"Invalid password.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invalid password.",
+                  "offset": 20
+                }
+              ],
+              "location": "LoginStep.i_should_see_error(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 41,
+        "name": "To test that user is unable to login when the one or both field is blank",
+        "description": "",
+        "id": "login-feature-test;to-test-that-user-is-unable-to-login-when-the-one-or-both-field-is-blank;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8747010000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I am  on the Home Page",
+            "match": {
+              "location": "Common.i_am_on_the_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 65596900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I see a logo banner",
+            "match": {
+              "location": "Common.i_see_a_logo_banner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2156880001,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click sign in",
+            "match": {
+              "location": "Common.i_click_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2190560100,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 35,
+                "value": "#  And I log into create account Page"
+              }
+            ],
+            "line": 36,
+            "name": "I try to log in with blank  \"davin.riches@gmail.com\" or \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "davin.riches@gmail.com",
+                  "offset": 29
+                },
+                {
+                  "val": "",
+                  "offset": 57
+                }
+              ],
+              "location": "LoginStep.i_try_to_log_in_with_blank_or(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93888300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I validate  \"Password is required.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password is required.",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginStep.i_validate(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 42,
+        "name": "To test that user is unable to login when the one or both field is blank",
+        "description": "",
+        "id": "login-feature-test;to-test-that-user-is-unable-to-login-when-the-one-or-both-field-is-blank;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9687850200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I am  on the Home Page",
+            "match": {
+              "location": "Common.i_am_on_the_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118231699,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I see a logo banner",
+            "match": {
+              "location": "Common.i_see_a_logo_banner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2078399600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click sign in",
+            "match": {
+              "location": "Common.i_click_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2152108801,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 35,
+                "value": "#  And I log into create account Page"
+              }
+            ],
+            "line": 36,
+            "name": "I try to log in with blank  \"\" or \"Today01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 29
+                },
+                {
+                  "val": "Today01",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginStep.i_try_to_log_in_with_blank_or(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154715299,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I validate  \"An email address required.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "An email address required.",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginStep.i_validate(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "line": 43,
+        "name": "To test that user is unable to login when the one or both field is blank",
+        "description": "",
+        "id": "login-feature-test;to-test-that-user-is-unable-to-login-when-the-one-or-both-field-is-blank;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11595231000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I am  on the Home Page",
+            "match": {
+              "location": "Common.i_am_on_the_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 195512001,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I see a logo banner",
+            "match": {
+              "location": "Common.i_see_a_logo_banner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2416343301,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click sign in",
+            "match": {
+              "location": "Common.i_click_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1330350400,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 35,
+                "value": "#  And I log into create account Page"
+              }
+            ],
+            "line": 36,
+            "name": "I try to log in with blank  \"\" or \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 29
+                },
+                {
+                  "val": "",
+                  "offset": 35
+                }
+              ],
+              "location": "LoginStep.i_try_to_log_in_with_blank_or(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74814500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I validate  \"An email address required.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "An email address required.",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginStep.i_validate(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature Test",
+    "description": "",
+    "id": "login-feature-test",
+    "keyword": "Feature",
+    "uri": "LoginTest.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Login"
+      }
+    ]
+  }
+]
