@@ -1,5 +1,7 @@
 package pages;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -10,18 +12,27 @@ public class LoginPage extends TestBase{
 	
 	@FindBy(how=How.ID,using ="email")	
 	 WebElement EmailBtn;
-
-	@FindBy(how=How.CSS,using = "#passwd")
+	
+	@FindBy(how=How.TAG_NAME,using ="a")    
+    List<WebElement> Alllinks;
+	
+	@FindBy(how=How.ID,using = "passwd")
        WebElement PasswordBtn;
 
 	@FindBy(how=How.XPATH,using = "//p[@class='submit']//span[1]")
 	WebElement SignInBtn;
+	
+	@FindBy(how=How.LINK_TEXT,using = "Forgot your password?")
+	WebElement ForgotYourPasswordLink;
 	
 	@FindBy(how=How.CSS,using = "ol > li")
 	WebElement authentication_failedErrorMessage;
 
 	@FindBy(how=How.XPATH,using = "//*[@id='center_column']/div[1]/ol/li")
 	WebElement Invalid_passwordErrorMessage;
+	
+	@FindBy(how=How.XPATH,using = "//p[@class='alert alert-warning']")
+	WebElement ShoppingCartEmptyMessage;
 	
 	@FindBy(how=How.CSS,using = "#center_column > div.alert.alert-danger > ol > li")
 	WebElement EmailErrorMessage;
@@ -37,8 +48,7 @@ public class LoginPage extends TestBase{
 	public MyAccountPage click_SignInBtn(){
 		SignInBtn.click();
 		return new MyAccountPage();
-	}
-	
+	}	
 	public void enter_incorrect_emailAddress(String email){
 		EmailBtn.sendKeys(email);
 	}
@@ -60,5 +70,16 @@ public class LoginPage extends TestBase{
 	}
 	public void enter_blank_passsword(String Mypasssword){
 		EmailBtn.sendKeys(Mypasssword);
+	}
+	
+	public void click_all_links(){
+		
+		Alllinks.clear();	
+	}
+	public void click_ForgotYourPasswordLink(){
+		ForgotYourPasswordLink.click();
+	}
+	public String validate_ShoppingCartEmptyMessage(){
+		return ShoppingCartEmptyMessage.getText();
 	}
 }

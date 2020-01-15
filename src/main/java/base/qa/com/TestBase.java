@@ -17,6 +17,7 @@ public class TestBase{
 	
 	public static WebDriver driver;
 	public static Properties prop;
+	public int random;
 	
 	
 	public TestBase(){

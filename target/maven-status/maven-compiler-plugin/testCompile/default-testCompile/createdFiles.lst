@@ -1,6 +1,8 @@
 stepDefinitionTest\LoginStep.class
-runner\RunnerTest.class
+stepDefinitionTest\ContactUsTest.class
 pages\LoginPage.class
-stepDefinitionTest\Common.class
 pages\HomePage.class
+runner\RunnerTest.class
+pages\ContactUsPage.class
+stepDefinitionTest\Common.class
 pages\MyAccountPage.class

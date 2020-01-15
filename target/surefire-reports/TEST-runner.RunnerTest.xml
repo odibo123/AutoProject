@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="116.41" tests="48" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="runner.RunnerTest" time="98.468" tests="48" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_172\jre\bin"/>
@@ -64,24 +64,24 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given I am  on the Home Page" classname="| davin.riches@gmail.com | Today01 | davin riches |" time="0.017"/>
+  <testcase name="Given I am  on the Home Page" classname="| davin.riches@gmail.com | Today01 | davin riches |" time="0.002"/>
   <testcase name="And I see a logo banner" classname="| davin.riches@gmail.com | Today01 | davin riches |" time="0"/>
   <testcase name="When I click sign in" classname="| davin.riches@gmail.com | Today01 | davin riches |" time="0"/>
   <testcase name="And I login in with correct &quot;davin.riches@gmail.com&quot; and &quot;Today01&quot;" classname="| davin.riches@gmail.com | Today01 | davin riches |" time="0"/>
   <testcase name="Then I should see &quot;davin riches&quot; on the dashboard" classname="| davin.riches@gmail.com | Today01 | davin riches |" time="0"/>
-  <testcase name="| davin.riches@gmail.com | Today01 | davin riches |" classname="| davin.riches@gmail.com | Today01 | davin riches |" time="0.002"/>
+  <testcase name="| davin.riches@gmail.com | Today01 | davin riches |" classname="| davin.riches@gmail.com | Today01 | davin riches |" time="0.001"/>
   <testcase name="Given I am  on the Home Page" classname="| escosolo7@gmail.com | Ikeama78 | Emeka Onourha |" time="0"/>
   <testcase name="And I see a logo banner" classname="| escosolo7@gmail.com | Ikeama78 | Emeka Onourha |" time="0"/>
   <testcase name="When I click sign in" classname="| escosolo7@gmail.com | Ikeama78 | Emeka Onourha |" time="0"/>
   <testcase name="And I login in with correct &quot;escosolo7@gmail.com&quot; and &quot;Ikeama78&quot;" classname="| escosolo7@gmail.com | Ikeama78 | Emeka Onourha |" time="0"/>
   <testcase name="Then I should see &quot;Emeka Onourha&quot; on the dashboard" classname="| escosolo7@gmail.com | Ikeama78 | Emeka Onourha |" time="0"/>
-  <testcase name="| escosolo7@gmail.com | Ikeama78 | Emeka Onourha |" classname="| escosolo7@gmail.com | Ikeama78 | Emeka Onourha |" time="0"/>
+  <testcase name="| escosolo7@gmail.com | Ikeama78 | Emeka Onourha |" classname="| escosolo7@gmail.com | Ikeama78 | Emeka Onourha |" time="0.001"/>
   <testcase name="Given I am  on the Home Page" classname="| davin.riches@gmail.com | Today2 | Authentication failed. |" time="0"/>
   <testcase name="And I see a logo banner" classname="| davin.riches@gmail.com | Today2 | Authentication failed. |" time="0"/>
   <testcase name="When I click sign in" classname="| davin.riches@gmail.com | Today2 | Authentication failed. |" time="0"/>
   <testcase name="When I try to log in with incorrect  &quot;davin.riches@gmail.com&quot; or incorrect &quot;Today2&quot;" classname="| davin.riches@gmail.com | Today2 | Authentication failed. |" time="0"/>
-  <testcase name="Then I should see error &quot;Authentication failed.&quot;" classname="| davin.riches@gmail.com | Today2 | Authentication failed. |" time="0.001"/>
-  <testcase name="| davin.riches@gmail.com | Today2 | Authentication failed. |" classname="| davin.riches@gmail.com | Today2 | Authentication failed. |" time="0.001"/>
+  <testcase name="Then I should see error &quot;Authentication failed.&quot;" classname="| davin.riches@gmail.com | Today2 | Authentication failed. |" time="0"/>
+  <testcase name="| davin.riches@gmail.com | Today2 | Authentication failed. |" classname="| davin.riches@gmail.com | Today2 | Authentication failed. |" time="0"/>
   <testcase name="Given I am  on the Home Page" classname="| esco@yahmail.com | Ikeama78 | Authentication failed. |" time="0"/>
   <testcase name="And I see a logo banner" classname="| esco@yahmail.com | Ikeama78 | Authentication failed. |" time="0"/>
   <testcase name="When I click sign in" classname="| esco@yahmail.com | Ikeama78 | Authentication failed. |" time="0"/>
@@ -89,12 +89,12 @@
   <testcase name="Then I should see error &quot;Authentication failed.&quot;" classname="| esco@yahmail.com | Ikeama78 | Authentication failed. |" time="0"/>
   <testcase name="| esco@yahmail.com | Ikeama78 | Authentication failed. |" classname="| esco@yahmail.com | Ikeama78 | Authentication failed. |" time="0"/>
   <testcase name="Given I am  on the Home Page" classname="| christodibo@yaho | To7@ | Invalid password. |" time="0"/>
-  <testcase name="And I see a logo banner" classname="| christodibo@yaho | To7@ | Invalid password. |" time="0"/>
+  <testcase name="And I see a logo banner" classname="| christodibo@yaho | To7@ | Invalid password. |" time="0.001"/>
   <testcase name="When I click sign in" classname="| christodibo@yaho | To7@ | Invalid password. |" time="0"/>
   <testcase name="When I try to log in with incorrect  &quot;christodibo@yaho&quot; or incorrect &quot;To7@&quot;" classname="| christodibo@yaho | To7@ | Invalid password. |" time="0"/>
   <testcase name="Then I should see error &quot;Invalid password.&quot;" classname="| christodibo@yaho | To7@ | Invalid password. |" time="0"/>
   <testcase name="| christodibo@yaho | To7@ | Invalid password. |" classname="| christodibo@yaho | To7@ | Invalid password. |" time="0.001"/>
-  <testcase name="Given I am  on the Home Page" classname="| davin.riches@gmail.com |  | Password is required. |" time="0"/>
+  <testcase name="Given I am  on the Home Page" classname="| davin.riches@gmail.com |  | Password is required. |" time="0.003"/>
   <testcase name="And I see a logo banner" classname="| davin.riches@gmail.com |  | Password is required. |" time="0"/>
   <testcase name="When I click sign in" classname="| davin.riches@gmail.com |  | Password is required. |" time="0"/>
   <testcase name="When I try to log in with blank  &quot;davin.riches@gmail.com&quot; or &quot;&quot;" classname="| davin.riches@gmail.com |  | Password is required. |" time="0"/>
